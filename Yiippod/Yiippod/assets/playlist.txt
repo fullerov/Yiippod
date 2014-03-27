@@ -1,0 +1,4 @@
+{"playlist":[
+{"comment":"SD","file":"rtmp://www.planeta-online.tv:1936/live/channel_3"},
+{"comment":"HD","file":"rtmp://www.planeta-online.tv:1936/live/channel_4"}
+]}
