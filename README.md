@@ -83,11 +83,10 @@ Playlist usage:
 If you want to add few video files in player, please edit this file: ext/Yiippod/assets/playlist.txt
 
 {"playlist":[
-{"comment":"First_file_or_stream_name","file":"URL_to_first_file_or_stream"},
-{"comment":"Second_file_or_stream_name","file":"URL_to_second_file_or_stream"} ...
-
+{"comment":"First_file_or_stream_name","file":"URL_to_first_file_or_stream","poster":"some_img1.jpg"},
+{"comment":"Second_file_or_stream_name","file":"URL_to_second_file_or_stream","poster":"some_img2.jpg"} ...
+ 
 ]}
-
 And then you must delete 'video'=>"", or comment it in your view:
 
 <?php  
@@ -107,9 +106,9 @@ $this->widget('ext.Yiippod.Yiippod', array(
 Если Вы хотите добавить несколько видео в плеер, пожалуйста оредактируйте файл: ext/Yiippod/assets/playlist.txt
 
 {"playlist":[
-{"comment":"Название_первого_видео","file":"Ссылка_до_первого_видео"},
-{"comment":"Название_второго_видео","file":"Ссылка_до_второго_видео"} ...
-
+{"comment":"First_file_or_stream_name","file":"URL_to_first_file_or_stream","poster":"some_img1.jpg"},
+{"comment":"Second_file_or_stream_name","file":"URL_to_second_file_or_stream","poster":"some_img2.jpg"} ...
+ 
 ]}
 
 И затем вы должны удалить 'video'=>"", или закомментировать его в представлении:
