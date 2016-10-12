@@ -128,6 +128,5 @@ $this->widget('ext.Yiippod.Yiippod', array(
 
 
 
-author Alexander Shapovalov <mail@shapovalov.org>
+contacts <mail@shapovalov.org>
 
-//автор Александр Шаповалов <mail@shapovalov.org>
